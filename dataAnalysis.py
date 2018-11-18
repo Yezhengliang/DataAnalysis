@@ -5,4 +5,6 @@
 # @version:
 # @time: 2018/11/18
 # @email:yzlview@163.com
-import pandas
+import pandas as pd
+obj = pd.Series([1,-5,2,3],index=['a','b','c','d'])
+print(obj['a'])
